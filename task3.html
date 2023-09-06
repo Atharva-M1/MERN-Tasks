@@ -3,10 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>This is task 3</title>
+    <style>
+      #box {
+        border-style: groove;
+        background-color: #ebeaea;
+        padding-left: 8px;
+      }
+      #emailbox {
+        background-color: white;
+      }
+    </style>
   </head>
   <body>
-    <h1>this is task3</h1>
+    <center>
+      <table id="box" cellspacing="0" cellpadding="0" width="700">
+        <td>
+          <p>
+            Click any of the following links
+            <br />
+            <br />
+            <a target="_blank" href="https://www.geeksforgeeks.org/mern-stack/">
+              Opens in New</a
+            >
+            |
+            <a target="_self" href="https://www.geeksforgeeks.org/mern-stack/"
+              >Opens in Self</a
+            >
+            |
+            <a target="_parent" href="https://www.geeksforgeeks.org/mern-stack/"
+              >Opens in Parent</a
+            >
+            |
+            <a target="_body" href="https://www.geeksforgeeks.org/mern-stack/"
+              >Opens in Body</a
+            >
+            |
+            <a id="emailbox" href="mailto:atharvamankame30@gmail.com"
+              >Send email</a
+            >
+          </p>
+        </td>
+      </table>
+    </center>
   </body>
 </html>
