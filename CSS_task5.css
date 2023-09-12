@@ -1,0 +1,41 @@
+#a {
+  border: 1px solid black;
+  width: 525px;
+  box-sizing: border-box;
+  height: 400px;
+  margin: auto;
+  background-color: rgba(218, 218, 7, 0.769);
+}
+
+#box button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: blue;
+  width: 130px;
+  padding: 5px;
+  text-align: left;
+  border-color: white;
+  border-right-width: 17px;
+  border-right-color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+}
+
+#box {
+  width: 30%;
+  float: left;
+}
+
+#right {
+  margin-left: 10px;
+  width: 60%;
+  float: left;
+  color: purple;
+}
+
+#box button:hover {
+  color: purple;
+}
