@@ -1,0 +1,49 @@
+#greenb {
+  background-color: rgb(2, 160, 81);
+}
+
+#blueb {
+  background-color: rgb(2, 151, 237);
+}
+
+#redb {
+  background-color: rgb(253, 71, 71);
+}
+
+#greyb {
+  background-color: rgb(92, 92, 92);
+}
+
+div button {
+  border: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 25px;
+  padding: 30px 25px;
+
+  margin-bottom: 10px;
+}
+
+#bor {
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 470px;
+  width: 640px;
+}
+
+#head {
+  width: 15%;
+  float: left;
+}
+
+#ani {
+  width: 85%;
+  float: left;
+  padding-top: 0px;
+  align-items: flex-start;
+}
+
+button:hover {
+  transition: 0.2s;
+  padding: 30.75px 31px;
+}
