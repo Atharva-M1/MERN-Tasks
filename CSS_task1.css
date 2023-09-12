@@ -1,0 +1,26 @@
+#bd {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#tl {
+  border: 2px solid rgb(164, 205, 102);
+  border-radius: 5px;
+}
+#rm {
+  border: 2px solid rgb(164, 205, 102);
+  border-radius: 15px;
+}
+#bm {
+  border: 2px solid rgb(164, 205, 102);
+}
+#bl {
+  border: 2px solid rgb(164, 205, 102);
+  border-radius: 50%;
+}
+#br {
+  border: 2px solid rgb(164, 205, 102);
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 10px;
+}
