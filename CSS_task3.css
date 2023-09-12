@@ -1,0 +1,25 @@
+#customers {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-collapse: collapse;
+}
+
+#customers td,
+#customers th {
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #e4e4e4;
+  border-right: #ddd;
+  border-left: #ddd;
+  border-width: 1px;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#heading {
+  color: white;
+}
