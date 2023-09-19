@@ -1,0 +1,61 @@
+.base-container {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(214, 214, 214);
+}
+
+.base {
+  overflow: hidden;
+}
+
+.yellow {
+  background-color: rgb(252, 193, 0);
+}
+
+.text-yellow {
+  color: rgb(255, 196, 0);
+}
+
+.blue {
+  padding: 15px;
+  font-size: 13px;
+  background-color: rgb(9, 0, 39);
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+.main-heading {
+  font-weight: 900;
+}
+
+.white-border {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.carousel-caption {
+  bottom: 50%;
+}
+
+.mid-heading {
+  font-weight: 900;
+  padding: 25px;
+}
+
+.footer {
+  padding-top: 30px;
+}
+
+.footer .icon {
+  padding: 30px !important;
+  padding-left: 50px !important;
+}
+
+.footer i {
+  padding: 10px;
+  font-size: 60px;
+}
