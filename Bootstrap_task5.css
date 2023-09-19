@@ -1,0 +1,20 @@
+body {
+  padding-top: 100px;
+}
+
+.main-form {
+  padding: 5%;
+  margin: auto;
+  width: 900px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.footer-button {
+  font-weight: 500;
+  color: white;
+}
